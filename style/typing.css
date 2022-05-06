@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --bg-color: #f3f3f3;
+    --text-color: #2443f3;
+}
+
+.typewriter {
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    color: #454343;
+    font-weight: bold;
+    position: absolute;
+    margin: 0;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.typewriter span {
+    color: var(--text-color);
+    padding: 10px;
+    border-right: solid var(--text-color) 10px; 
+    animation: cursor 1s ease-in-out infinite;
+}
+
+@media screen and (max-width: 1200px){
+    .typewriter {
+        font-size: 46px;
+    }
+}
+
+@media screen and (max-width: 877px){
+    .typewriter {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 788px){
+    .typewriter {
+        top: 25%;
+        font-size: 36px;
+    }
+}
+
+@keyframes cursor {
+    from { border-color: var(--text-color); }
+    to { border-color: transparent; }
+}
+
+@media (max-width: 576px) {
+    .typewriter { font-size: 24px; }
+}
+@media (max-width: 768px) {
+    .typewriter { font-size: 30px; }
+}
+
+@media screen and (max-width: 500px) {
+    .typewriter {
+        top: 25%;
+        transform: translateY(-50%);
+    }
+}

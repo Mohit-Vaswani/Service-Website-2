@@ -1,0 +1,166 @@
+#review-heading{
+    font-size: 2.5rem;
+    margin: 13rem 0rem 0rem;
+    text-align: center;
+    color: #484848;
+}
+
+.review{
+    width: 100%;
+    height: 90vh;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-text{
+    width: 600px;
+    margin-top: 7rem;
+    margin-right: 10rem;
+}
+
+.review-img img{
+    width: 400px;
+    margin: 2rem 5rem;
+    border-radius: 15px;
+}
+
+.review-text p{
+    font-size: 1.7rem;
+    margin: 2rem 0rem;
+}
+
+.review-text h3{
+    font-size: 1.6rem;
+}
+
+.review-text small{
+    color: #434242;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1162px){
+    #review-heading{
+        margin-top: 75rem;
+    }
+    
+    .review-text{
+        margin-top: 3rem;
+    }
+    
+    .review-img img{
+        width: 350px;
+    }
+    
+    .review-text p{
+        width: 450px;
+        font-size: 1.7rem;
+        margin: 2rem 0rem;
+    }
+}
+
+
+@media screen and (max-width: 985px) {
+    .review-text{
+        margin-top: 2rem;
+    }
+
+    #review-heading{
+        font-size: 2rem;
+    }
+
+    .review-text p {
+        width: 330px;
+        font-size: 1.5rem;
+        margin: 2rem 0rem;
+    }
+
+    .review-img img{
+        width: 300px;
+        margin: 3rem 3rem 3rem 2rem;
+    }
+}
+
+@media screen and (max-width: 773px) {
+    .review-text{
+        margin-top: 4rem;
+    }
+
+    #review-heading{
+        margin-top: 150rem;
+        font-size: 1.8rem;
+    }
+    
+    .review-text p{
+        font-size: 1.3rem;
+    }
+    
+    .review-text h3{
+        font-size: 1.4rem;
+    }
+    
+    .review-text small{
+        font-size: 1rem;
+    }
+
+    #google{
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 726px) {
+    #review-heading{
+        font-size: 1.4rem;
+    }
+
+    .review{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-img img {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+
+    .review-text{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    #review-heading{
+        font-size: 1.4rem;
+        padding: 0px 20px;
+        margin-top: 145rem;
+    }
+
+    .review-text {
+        width: 300px;
+        margin: 5rem auto 15rem;
+    }
+
+    .review-img img{
+        margin: 0rem auto;
+    }
+
+    .review-text p{
+        font-size: 1.2rem;
+        margin: 2rem 0rem;
+    }
+    
+    .review-text h3{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .review-text p{
+        width: 280px;
+        font-size: 1rem;
+        margin: 2rem 0rem;
+    }
+}
